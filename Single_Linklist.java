@@ -111,3 +111,19 @@ public class LL{
     }
 }
 }
+
+public class main {
+    public static void main(String[] args) {
+        LL list=new LL();
+        list.InsertFirst(8);
+        list.InsertFirst(7);
+        list.InsertFirst(6);
+        list.InsertFirst(5);
+        list.InsertFirst(4);
+        list.InsertLast(99);
+        list.display();
+        System.out.println(list.DeleteFirst());
+        System.out.println(list.Find_num(8));    }
+    
+}
+
